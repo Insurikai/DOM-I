@@ -49,3 +49,4 @@ nav.children[2].textContent = siteContent.nav["nav-item-3"];
 nav.children[3].textContent = siteContent.nav["nav-item-4"];
 nav.children[4].textContent = siteContent.nav["nav-item-5"];
 nav.children[5].textContent = siteContent.nav["nav-item-6"];
+document.getElementById("logo-img").src = siteContent.nav["img-src"];
