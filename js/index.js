@@ -83,13 +83,9 @@ product.querySelector("p").textContent = siteContent["main-content"]["product-co
 const vision = mainContent.children[2].children[2];
 vision.querySelector("h4").textContent = siteContent["main-content"]["vision-h4"];
 vision.querySelector("p").textContent = siteContent["main-content"]["vision-content"];
-/* 
-"main-content": {
-    "services-h4":"Services",
-    "services-content": "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-    "product-h4":"Product",
-    "product-content": "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-    "vision-h4":"Vision",
-    "vision-content": "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-  },
-*/
+
+contact.querySelector("h4").textContent = siteContent.contact["contact-h4"];
+let para = contact.querySelectorAll("p");
+para[0].textContent = siteContent["contact"]["address"];
+para[1].textContent = siteContent["contact"]["phone"];
+para[2].textContent = siteContent["contact"]["email"];
