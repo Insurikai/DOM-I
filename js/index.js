@@ -37,6 +37,15 @@ const siteContent = {
   },
 };
 
-// Example: Update the img src for the logo
-let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+const nav = document.getElementsByTagName("nav")[0];
+const cta = document.getElementsByClassName("cta")[0];
+const mainContent = document.getElementsByClassName("main-content")[0];
+const contact = document.getElementsByClassName("contact")[0];
+const footer = document.getElementsByTagName("footer")[0];
+
+
+console.log(nav);
+console.log(cta);
+console.log(mainContent);
+console.log(contact);
+console.log(footer);
