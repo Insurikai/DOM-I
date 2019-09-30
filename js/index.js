@@ -65,3 +65,7 @@ cta.querySelector("#cta-img").src = siteContent.cta["img-src"];
 const features = mainContent.children[0].children[0];
 features.querySelector("h4").textContent = siteContent["main-content"]["features-h4"];
 features.querySelector("p").textContent = siteContent["main-content"]["features-content"];
+
+const about = mainContent.children[0].children[1];
+about.querySelector("h4").textContent = siteContent["main-content"]["about-h4"];
+about.querySelector("p").textContent = siteContent["main-content"]["about-content"];
