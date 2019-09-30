@@ -71,3 +71,17 @@ about.querySelector("h4").textContent = siteContent["main-content"]["about-h4"];
 about.querySelector("p").textContent = siteContent["main-content"]["about-content"];
 
 mainContent.querySelector("#middle-img").src = siteContent["main-content"]["middle-img-src"];
+
+const services = mainContent.children[2].children[0];
+services.querySelector("h4").textContent = siteContent["main-content"]["services-h4"];
+services.querySelector("p").textContent = siteContent["main-content"]["services-content"];
+/* 
+"main-content": {
+    "services-h4":"Services",
+    "services-content": "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+    "product-h4":"Product",
+    "product-content": "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+    "vision-h4":"Vision",
+    "vision-content": "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+  },
+*/
