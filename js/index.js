@@ -86,6 +86,8 @@ vision.querySelector("p").textContent = siteContent["main-content"]["vision-cont
 
 contact.querySelector("h4").textContent = siteContent.contact["contact-h4"];
 let para = contact.querySelectorAll("p");
-para[0].textContent = siteContent["contact"]["address"];
-para[1].textContent = siteContent["contact"]["phone"];
-para[2].textContent = siteContent["contact"]["email"];
+para[0].textContent = siteContent.contact["address"];
+para[1].textContent = siteContent.contact["phone"];
+para[2].textContent = siteContent.contact["email"];
+
+footer.querySelector("p").textContent = siteContent.footer["copyright"];
