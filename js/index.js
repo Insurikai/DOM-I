@@ -53,5 +53,15 @@ nav.children[5].textContent = siteContent.nav["nav-item-6"];
 document.getElementById("logo-img").src = siteContent.nav["img-src"];
 /* Cta */
 cta.children[0].children[0].textContent = siteContent.cta["h1"];
+// let h = cta.children[0].children[0];
+// h.append("DOM");
+// let br = document.createElement("br");
+// br.textContent = " Is";
+// h.appendChild(br);
+// h.append(" Awesome")
 cta.children[0].children[1].textContent = siteContent.cta["button"];
 cta.querySelector("#cta-img").src = siteContent.cta["img-src"];
+
+const features = mainContent.children[0].children[0];
+features.querySelector("h4").textContent = siteContent["main-content"]["features-h4"];
+features.querySelector("p").textContent = siteContent["main-content"]["features-content"];
