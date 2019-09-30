@@ -80,7 +80,7 @@ const product = mainContent.children[2].children[1];
 product.querySelector("h4").textContent = siteContent["main-content"]["product-h4"];
 product.querySelector("p").textContent = siteContent["main-content"]["product-content"];
 
-const vision = mainContent.children[2].children[1];
+const vision = mainContent.children[2].children[2];
 vision.querySelector("h4").textContent = siteContent["main-content"]["vision-h4"];
 vision.querySelector("p").textContent = siteContent["main-content"]["vision-content"];
 /* 
