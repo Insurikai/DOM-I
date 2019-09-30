@@ -75,6 +75,10 @@ mainContent.querySelector("#middle-img").src = siteContent["main-content"]["midd
 const services = mainContent.children[2].children[0];
 services.querySelector("h4").textContent = siteContent["main-content"]["services-h4"];
 services.querySelector("p").textContent = siteContent["main-content"]["services-content"];
+const product = mainContent.children[2].children[1];
+product.querySelector("h4").textContent = siteContent["main-content"]["product-h4"];
+product.querySelector("p").textContent = siteContent["main-content"]["product-content"];
+
 /* 
 "main-content": {
     "services-h4":"Services",
