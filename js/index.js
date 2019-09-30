@@ -43,9 +43,9 @@ const mainContent = document.getElementsByClassName("main-content")[0];
 const contact = document.getElementsByClassName("contact")[0];
 const footer = document.getElementsByTagName("footer")[0];
 
-
-console.log(nav);
-console.log(cta);
-console.log(mainContent);
-console.log(contact);
-console.log(footer);
+nav.children[0].textContent = siteContent.nav["nav-item-1"];
+nav.children[1].textContent = siteContent.nav["nav-item-2"];
+nav.children[2].textContent = siteContent.nav["nav-item-3"];
+nav.children[3].textContent = siteContent.nav["nav-item-4"];
+nav.children[4].textContent = siteContent.nav["nav-item-5"];
+nav.children[5].textContent = siteContent.nav["nav-item-6"];
