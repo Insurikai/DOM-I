@@ -69,3 +69,5 @@ features.querySelector("p").textContent = siteContent["main-content"]["features-
 const about = mainContent.children[0].children[1];
 about.querySelector("h4").textContent = siteContent["main-content"]["about-h4"];
 about.querySelector("p").textContent = siteContent["main-content"]["about-content"];
+
+mainContent.querySelector("#middle-img").src = siteContent["main-content"]["middle-img-src"];
