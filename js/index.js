@@ -37,12 +37,13 @@ const siteContent = {
   },
 };
 
-const nav = document.getElementsByTagName("nav")[0];
-const cta = document.getElementsByClassName("cta")[0];
-const mainContent = document.getElementsByClassName("main-content")[0];
-const contact = document.getElementsByClassName("contact")[0];
-const footer = document.getElementsByTagName("footer")[0];
+const nav = document.querySelector("nav");
+const cta = document.querySelector(".cta");
+const mainContent = document.querySelector(".main-content");
+const contact = document.querySelector(".contact");
+const footer = document.querySelector("footer");
 
+/* Nav */
 nav.children[0].textContent = siteContent.nav["nav-item-1"];
 nav.children[1].textContent = siteContent.nav["nav-item-2"];
 nav.children[2].textContent = siteContent.nav["nav-item-3"];
